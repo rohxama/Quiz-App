@@ -46,19 +46,19 @@ const quizData = [{
     {
         question: "Which HTML attribute is used to define inline CSS styles?",
         answers: [
-            { id: 1, label: "id", correct: true },
+            { id: 1, label: "id", correct: false },
             { id: 2, label: "class", correct: false },
-            { id: 3, label: "style", correct: false },
+            { id: 3, label: "style", correct: true },
             { id: 4, label: "css", correct: false }
         ]
     },
     {
         question: "What does DOM stand for in web development?",
         answers: [
-            { id: 1, label: "Dynamic Object Model", correct: true },
+            { id: 1, label: "Dynamic Object Model", correct: false },
             { id: 2, label: "Data Object Model", correct: false },
             { id: 3, label: "Document Oriented Model", correct: false },
-            { id: 4, label: "Document Object Model ", correct: false }
+            { id: 4, label: "Document Object Model ", correct: true }
         ]
     },
     {
